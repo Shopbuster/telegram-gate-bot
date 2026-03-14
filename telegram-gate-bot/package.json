@@ -1,0 +1,16 @@
+{
+  "name": "telegram-gate-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot with human verification + single-use invite links",
+  "main": "api/webhook.js",
+  "scripts": {
+    "dev": "node scripts/dev.js",
+    "set-webhook": "node scripts/set-webhook.js"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.66.0"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
