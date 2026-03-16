@@ -34,7 +34,7 @@ bot.onText(/\/start/, async (msg) => {
 
   await bot.sendMessage(
     chatId,
-    `👋 Hey ${firstName}! To get access to the private channel, please solve this quick verification:\n\n` +
+    `👋 Hey ${firstName}! To get access to our private channels, please solve this quick verification:\n\n` +
       `🔢 What is ${challenge.a} + ${challenge.b}?\n\nJust reply with the number.`
   );
 });
