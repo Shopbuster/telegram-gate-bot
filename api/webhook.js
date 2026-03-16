@@ -33,7 +33,7 @@ module.exports = async (req, res) => {
 
       await bot.sendMessage(
         chatId,
-        `👋 Hey ${firstName}! To get access to the private channels, please solve this quick verification:\n\n` +
+        `👋 Hey ${firstName}! To get access to our private channels, please solve this quick verification:\n\n` +
           `🔢 What is ${challenge.a} + ${challenge.b}?\n\n` +
           `Just reply with the number.`
       );
@@ -78,10 +78,10 @@ module.exports = async (req, res) => {
           let message =
             `✅ Correct! Welcome aboard!\n\n` +
             `Here are your private access links (each valid for 1 use only):\n\n` +
-            `🔗 Channel 1: ${link1}`;
+            `🔗 Homo Sapiens Services: ${link1}`;
 
           if (link2) {
-            message += `\n\n🔗 Channel 2: ${link2}`;
+            message += `\n\n🔗 Homo Sapiens Store: ${link2}`;
           }
 
           message += `\n\nThese links are unique to you — do not share them.`;
